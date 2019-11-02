@@ -2,21 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 98%;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pokemon-card {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 1% 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+img {
+  width: 280px;
 }

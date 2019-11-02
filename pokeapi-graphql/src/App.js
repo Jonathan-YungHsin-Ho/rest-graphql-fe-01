@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import CharacterList from './components/CharacterList';
+import PokemonList from './components/PokemonList';
 
 function App() {
   return (
     <div className='App'>
-      <h1>SWAPI React App - REST API</h1>
-      <CharacterList />
+      <h1>Pokemon React App - GraphQL API</h1>
+      <PokemonList />
     </div>
   );
 }

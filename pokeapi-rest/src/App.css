@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.character-list {
+.pokemon-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.character-card {
+.pokemon-card {
   border: 1px solid black;
   width: 100%;
   max-width: 300px;
